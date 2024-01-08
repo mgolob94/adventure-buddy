@@ -1,0 +1,82 @@
+.qode-tours-checkout-content-inner{
+	display: table;
+	width: 100%;
+	padding: 50px 0 65px;
+
+	.qode-tours-info-holder,
+	.qode-tours-image-holder{
+		display: table-cell;
+		width: 50%;
+		vertical-align: top;
+	}
+
+	.qode-tours-info-holder{
+		padding-left: 15px;
+
+
+		.qode-tours-info-title {
+			margin: 0 0 6px;
+		}
+		
+		.qode-tours-info-message {
+			margin: 0;
+			color: $first-main-color;
+		}
+		
+		> div {
+			margin: 6px 0;
+			
+			.qode-tours-info-checkout-title{
+				display: inline-block;
+				margin: 0;
+			}
+
+			&.qode-tours-info-description{
+				margin: 42px 0;
+				
+				.qode-tours-info-checkout-title {
+					display: block;
+					margin-bottom: 6px;
+				}
+			}
+		}
+
+		.qode-tours-booking-price {
+			color: $first-main-color;
+		}
+
+		form {
+			margin-top: 28px;
+		}
+	}
+
+	.qode-tours-image-holder{
+		position: relative;
+		padding-right: 15px;
+
+		img{
+			display: none;
+		}
+
+		.qode-tours-image-bckg {
+			position: absolute;
+			height: 100%;
+			width: calc(100% - 15px);
+			top: 0;
+			left: 0;
+			background-size: cover;
+			background-position: center;
+		}
+	}
+}
+
+.page-template-tour-checkout {
+	
+	.qode-content .qode-content-inner {
+		
+		> .qode-container > .qode-container-inner,
+		> .qode-full-width > .qode-full-width-inner{
+			padding: 100px 0;
+		}
+	}
+}

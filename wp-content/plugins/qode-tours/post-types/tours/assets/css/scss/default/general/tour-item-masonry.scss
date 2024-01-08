@@ -1,0 +1,90 @@
+
+/* Gallery type styles
+   ========================================================================== */
+
+.qode-tours-masonry-item {
+	@include qodeRelativeHolderLayout();
+	
+	.touchevents & {
+		cursor: pointer;
+	}
+
+    .qode-tours-gim-holder-inner {
+        position: relative;
+        height: 100%;
+    }
+
+    &.qode-tour-masonry-layout-default {
+        .qode-tours-gim-image {
+            @include qodeRelativeHolderLayout();
+            height: 100%;
+            line-height: 0;
+            img {
+               height: 100%;
+            }
+        }
+        .qode-tours-gim-content-holder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            opacity: 0;
+            background-color: rgba($first-main-color, 0.9);
+            @include qodeTransition(opacity 0.2s ease-out);
+        }
+        .qode-tours-gim-content-outer {
+            @include qodeTableLayout();
+        }
+        .qode-tours-gim-content-inner {
+            @include qodeTableCellLayout();
+            vertical-align: middle;
+            padding: 30px;
+
+            .qode-gim-title-holder{
+                margin-bottom: 15px;
+            }
+        }
+        .qode-tour-title {
+            margin: 0;
+        }
+        .qode-tours-price-holder {
+            color: #000;
+        }
+        &:hover {
+            .qode-tours-gim-content-holder {
+                opacity: 1;
+            }
+        }
+    }
+
+    &.qode-tour-masonry-layout-description {
+        .qode-tours-gim-holder-inner {
+            border: 4px dashed $first-main-color;
+            box-sizing: border-box;
+        }
+        .qode-tours-price-holder {
+            color: #000;
+        }
+        .qode-tours-gim-content-outer {
+            @include qodeTableLayout();
+        }
+        .qode-tours-gim-content-inner {
+            @include qodeTableCellLayout();
+            padding: 30px;
+        }
+        .qode-tour-title {
+            margin: 0;
+        }
+    }
+
+    .qode-tours-masonry-item-link {
+        @include qodeAbsoluteHolderLayout();
+        z-index: 100;
+    }
+}
+
+/* Gallery type styles end
+	========================================================================== */

@@ -1,0 +1,61 @@
+.qode-reviews-per-mark {
+
+    .qode-grid-row{
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        .qode-grid-col-4,
+        .qode-grid-col-8{
+            display: table-cell;
+            vertical-align: middle;
+            float: none;
+            padding: 0;
+        }
+        .qode-grid-col-3{
+            text-align: left;
+        }
+    }
+
+    .qode-reviews-number-wrapper {
+        padding-top: 23%;
+        padding-left: 15%;
+        display: table;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        vertical-align: middle;
+    }
+    .qode-reviews-number {
+        font-size: 72px;
+        color: #ffd740;
+        font-weight: 700;
+        line-height: 1em;
+        margin-right: 22px;
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        top:-6px;
+    }
+
+    .qode-stars-wrapper {
+        display: table-cell;
+        vertical-align: middle;
+        .qode-stars {
+            display: block;
+            i {
+                color: #ffd740;
+            }
+        }
+    }
+
+    .qode-reviews-count {
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .qode-rating-percentage-wrapper {
+        padding:29px 50px 40px ;
+        background-color: #fafafa;
+        border-left: 1px solid #e5e5e5;
+    }
+}

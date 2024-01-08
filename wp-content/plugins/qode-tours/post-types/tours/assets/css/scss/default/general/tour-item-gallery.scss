@@ -1,0 +1,109 @@
+
+/* Gallery type styles
+   ========================================================================== */
+
+.qode-tours-gallery-item {
+	@include qodeRelativeHolderLayout();
+	
+	.touchevents & {
+		cursor: pointer;
+	}
+	
+	.qode-tours-gallery-item-image-holder {
+		@include qodeRelativeHolderLayout();
+	}
+	
+	.qode-tours-gallery-item-image {
+		@include qodeRelativeHolderLayout();
+		overflow: hidden;
+		
+		img {
+			vertical-align: middle;
+		}
+
+		&:after {
+			content:'';
+			position: absolute;
+			top:0;
+			left:0;
+			height: 100%;
+			width: 100%;
+			background-color: rgba(0, 0, 0, 0.2);
+			opacity: 0;
+			z-index: 10;
+			@include qodeTransition(opacity 1s cubic-bezier(0.29, 0.22, 0.11, 1));
+		}
+	}
+	
+	.qode-tours-gallery-item-content-holder {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		z-index: 20;
+		height: auto;
+		padding: 11px 19px;
+		background-color: #fff;
+		box-sizing: border-box;
+		@include qodeTransition(all .3s cubic-bezier(0.29, 0.22, 0.11, 1.33));
+	}
+	
+	.qode-tours-gallery-item-content-inner {
+		@include qodeRelativeHolderLayout();
+		overflow: hidden;
+	}
+	
+	.qode-tours-gallery-title-holder {
+		padding: 10px 0;
+		
+		.qode-tour-title {
+			display: table-cell;
+			vertical-align: top;
+			margin: 0;
+		}
+		
+		.qode-tours-gallery-item-price-holder {
+			position: relative;
+			top: 1px;
+			display: table-cell;
+			vertical-align: top;
+			width: 1%;
+			white-space: nowrap;
+		}
+	}
+
+	.qode-tour-item-label {
+		z-index: 30;
+	}
+	
+	.qode-tours-gallery-item-excerpt {
+		position: relative;
+		overflow: hidden;
+		opacity:0;
+		@include qodeTransition(all .15s cubic-bezier(0.29, 0.22, 0.11, 1));
+	}
+	
+	.qode-tours-gallery-item-excerpt-inner {
+		@include qodeRelativeHolderLayout();
+		margin: 0 0 10px;
+	}
+
+	.qode-tours-gallery-item-link {
+		@include qodeAbsoluteHolderLayout();
+		z-index: 100;
+	}
+	
+	&:hover {
+		.qode-tours-gallery-item-content-holder {
+			@include qodeTransition(all .5s cubic-bezier(0.81,-0.65, 0, 0.94));
+		}
+
+		.qode-tours-gallery-item-image:after,
+		.qode-tours-gallery-item-excerpt {
+			opacity:1;
+		}
+	}	
+}
+
+/* Gallery type styles end
+	========================================================================== */

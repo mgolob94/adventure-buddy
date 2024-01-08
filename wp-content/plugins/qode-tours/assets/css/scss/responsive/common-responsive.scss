@@ -1,0 +1,66 @@
+.qode-tours-row{
+
+	@include laptop-landscape-large {
+
+		$gallery_columns_number: ('5', '6');
+			
+		@for $i from 0 to length($gallery_columns_number) {
+			&.qode-tours-columns-#{nth($gallery_columns_number,$i+1)} {
+                $column_width: 100%/3;
+				
+				.qode-tours-row-item,
+                .qode-tours-list-grid-sizer {
+					width: $column_width;
+				}
+
+                .qode-tours-row-item {
+                    &.qode-size-large-width,
+                    &.qode-size-large-width-height {
+                        width: $column_width * 2;
+                    }
+                }
+
+			}
+		}
+	}
+
+	@include ipad-landscape {
+
+		$gallery_columns_number: ('3', '4', '5', '6');
+			
+		@for $i from 0 to length($gallery_columns_number) {
+			&.qode-tours-columns-#{nth($gallery_columns_number,$i+1)} {
+                $column_width: 100%/2;
+
+				.qode-tours-row-item,
+                .qode-tours-list-grid-sizer {
+					width: $column_width;
+				}
+
+                .qode-tours-row-item {
+                    &.qode-size-large-width,
+                    &.qode-size-large-width-height {
+                        width: $column_width * 2;
+                    }
+                }
+			}
+		}
+	}
+
+
+	@include phone-landscape {
+
+		$gallery_columns_number: ('2', '3', '4', '5', '6');
+			
+		@for $i from 0 to length($gallery_columns_number) {
+			&.qode-tours-columns-#{nth($gallery_columns_number,$i+1)} {
+				
+				.qode-tours-row-item,
+                .qode-tours-list-grid-sizer {
+					width: 100% !important;
+				}
+			}
+		}
+	}
+
+}

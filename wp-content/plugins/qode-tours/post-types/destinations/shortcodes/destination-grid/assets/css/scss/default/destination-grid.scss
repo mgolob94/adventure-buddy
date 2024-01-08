@@ -1,0 +1,78 @@
+.qode-tours-destination-grid {
+	font-size: 0; //to eliminate spacing between inline-blocks
+	.qode-normal-space{
+		.qode-outer-space{
+			margin: 0 -20px;
+			.qode-item-space{
+				padding: 0 20px;
+				margin: 0 0 40px;
+			}
+		}
+	}
+}
+
+.qode-tours-destination-item-holder {
+	@include qodeRelativeHolderLayout();
+	
+	.touchevents & {
+		cursor: pointer;
+	}
+
+	&:hover {
+		
+		.qode-tours-destination-item-image {
+
+			@include qodeBoxShadow(0px 5px 27px 0px rgba(61, 57, 57, 0.4));
+
+			img {
+				@include qodeTransform(translateZ(0) scale(1.03));
+			}
+
+			&:after {
+				opacity:1;
+			}
+		}
+	}
+
+	.qode-tours-destination-item-content {
+		@include qodeAbsoluteHolderLayout();
+		z-index: 2;
+	}
+
+	.qode-tours-destination-item-content-inner {
+		@include qodeTableLayout();
+		text-align: center;
+		
+		.qode-tours-destination-item-title {
+			@include qodeTableCellLayout();
+			padding: 0 20px;
+			color: #fff;
+		}
+	}
+
+	.qode-tours-destination-item-image {
+		overflow: hidden;
+		z-index: 10;
+		@include qodeBorderRadius(10px);
+		@include qodeTransition(box-shadow 1s cubic-bezier(0.29, 0.22, 0.11, 1));
+
+		img {
+			display: block;
+			-webkit-transition: -webkit-transform .3s ease-in-out;
+			-moz-transition: -moz-transform .3s ease-in-out;
+			transition: transform .3s ease-in-out;
+			@include qodeTransform(translateZ(0) scale(1));
+		}
+		
+		&:after {
+			@include qodeAbsoluteHolderLayout();
+			height: 100%;
+			content: '';
+			z-index: 1;
+			opacity:0.2;
+			background-color: rgba(0,0,0, 0.4);
+ 	   		@include qodeTransition(opacity 1s cubic-bezier(0.29, 0.22, 0.11, 1));
+ 	   		@include qodeBorderRadius(10px);
+		}
+	}
+}

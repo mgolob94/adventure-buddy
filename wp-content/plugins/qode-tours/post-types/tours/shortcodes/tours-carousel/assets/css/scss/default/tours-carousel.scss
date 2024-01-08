@@ -1,0 +1,33 @@
+.qode-tours-carousel-holder {
+
+	.qode-tours-carousel{
+		&.qode-owl-slider{
+			.owl-item{
+				padding-top: 15px;
+
+				.qode-tours-tour-categories-item{
+					.qode-tour-cat-item-custom-image{
+						img{
+							display: inline-block;						
+						}
+					}
+				}
+			}
+
+			.owl-nav{
+				.owl-prev{
+					left: -30px;
+					font-size: 45px;
+				}
+				.owl-next{
+					right: -30px;
+					font-size: 45px;
+				}
+			}
+		}
+	}
+
+	ul li {
+		list-style-type: none;
+	}
+}

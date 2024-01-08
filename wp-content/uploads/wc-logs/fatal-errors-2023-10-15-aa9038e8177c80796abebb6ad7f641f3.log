@@ -1,0 +1,69 @@
+2023-10-15T21:03:24+00:00 CRITICAL Unclosed '{' on line 232 v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 504
+
+2023-10-15T21:03:28+00:00 CRITICAL Unclosed '{' on line 232 v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 504
+
+2023-10-15T21:03:29+00:00 CRITICAL Unclosed '{' on line 232 v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 504
+
+2023-10-15T21:03:50+00:00 CRITICAL Unclosed '{' on line 232 v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 504
+
+2023-10-15T21:03:51+00:00 CRITICAL Unclosed '{' on line 232 v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 504
+
+2023-10-15T21:44:14+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + array in /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php:286
+Stack trace:
+#0 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(331): set_booking_resource_availability(924)
+#1 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(310): create_and_set_availability('')
+#2 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /Users/marcel/Sites/adventure-buddy/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/marcel/Sites/adventure-buddy/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#5 {main}
+  thrown v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 286
+
+2023-10-15T21:44:47+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + array in /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php:286
+Stack trace:
+#0 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(331): set_booking_resource_availability(925)
+#1 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(310): create_and_set_availability('')
+#2 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /Users/marcel/Sites/adventure-buddy/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /Users/marcel/Sites/adventure-buddy/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#5 {main}
+  thrown v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 286
+
+2023-10-15T22:16:30+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php:247
+Stack trace:
+#0 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(247): json_decode(Array, true)
+#1 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(297): set_booking_resource_availability(940)
+#2 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(310): create_and_set_availability('')
+#3 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /Users/marcel/Sites/adventure-buddy/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/marcel/Sites/adventure-buddy/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#6 {main}
+  thrown v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 247
+
+2023-10-15T22:17:07+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php:247
+Stack trace:
+#0 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(247): json_decode(Array, true)
+#1 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(297): set_booking_resource_availability(941)
+#2 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(310): create_and_set_availability('')
+#3 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /Users/marcel/Sites/adventure-buddy/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/marcel/Sites/adventure-buddy/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#6 {main}
+  thrown v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 247
+
+2023-10-15T22:17:10+00:00 CRITICAL Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php:247
+Stack trace:
+#0 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(247): json_decode(Array, true)
+#1 /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php(297): set_booking_resource_availability(942)
+#2 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(310): create_and_set_availability('')
+#3 /Users/marcel/Sites/adventure-buddy/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /Users/marcel/Sites/adventure-buddy/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Users/marcel/Sites/adventure-buddy/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#6 {main}
+  thrown v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 247
+
+2023-10-15T22:44:52+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 266
+
+2023-10-15T22:44:52+00:00 CRITICAL syntax error, unexpected double-quote mark, expecting ")" v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 266
+
+2023-10-15T22:54:08+00:00 CRITICAL syntax error, unexpected token "=>", expecting ")" v /Users/marcel/Sites/adventure-buddy/wp-content/themes/bridge-child/functions.php v vrstici 267
+

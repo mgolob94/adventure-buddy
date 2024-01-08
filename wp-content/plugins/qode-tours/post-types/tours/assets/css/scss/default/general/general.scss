@@ -1,0 +1,128 @@
+/* General styles
+========================================================================== */
+.qode-tours-price-holder {
+	font-size: 20px;
+	color: $first-main-color;
+	font-weight: 500;
+}
+
+.qode-tour-item-label {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	padding: 0 33px;
+	text-align: center;
+	white-space: nowrap;
+	z-index: 1;
+	box-sizing: border-box;
+	color: #fff;
+	background-color: $first-main-color;
+	@include qodeTransform(translate(-50%, -50%));
+}
+
+.qode-tour-rating-rate {
+	vertical-align: middle;
+}
+
+.qode-tour-rating-label {
+	vertical-align: middle;
+}
+
+.qode-tours-price-with-discount {
+	.qode-tours-price-old.qode-tours-item-price{
+		font-size: 16px;
+		text-decoration: line-through;
+		margin-right: 5px;
+		color: #969191;
+	}
+}
+
+
+.qode-boxed-widget {
+	padding: 30px 30px 35px;
+	background-color: #f9f9f9;
+	
+	&.qode-tours-search-main-filters-holder {
+		position: relative;
+		margin: 0 0 28px;
+		
+		.qode-btn {
+			position: absolute;
+			left: 30px;
+			bottom: 0;
+			margin: 0;
+			width: calc(100% - 60px);
+			@include qodeTransform(translateY(50%));
+		}
+	}
+}
+
+%booking-input-style {
+	position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 16px 24px 15px 43px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: inherit;
+    color: $default-heading-color;
+    background-color: #fff;
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    -webkit-appearance: none;
+	cursor: pointer;
+    box-sizing: border-box;
+    @include qodeTransition(border-color 0.2s ease-in-out);
+
+    &:focus {
+        color: $default-heading-color;
+    }
+    
+    @include qodePlaceholder {
+        color: inherit;
+    }
+}
+
+.qode-tours-input-with-icon {
+	position: relative;
+	margin-bottom: 15px;
+
+	textarea,
+	select,
+	input[type='text'],
+	input[type='email'],
+	input[type='password'],
+	input[type='number']{
+	    @extend %booking-input-style;
+	}
+
+	textarea {
+	    display: block;
+	    padding: 15px 24px;
+	}
+	
+	input[type=text].qode-tours-price-range-field {
+		background-color: transparent;
+		padding: 0;
+	}
+
+	select {
+		-moz-appearance: none;
+	}
+}
+
+.qode-tours-input-icon {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	width: auto;
+	font-size: 14px;
+	color: #bbb;
+	z-index: 1;
+	@include qodeTransform(translateY(-50%));
+}
+
+/* General styles end
+========================================================================== */

@@ -1,0 +1,117 @@
+
+/* Standard type styles
+========================================================================== */
+
+.qode-tours-standard-item {
+
+	.qode-tours-standard-item-image-holder {
+		position: relative;
+
+		> a {
+			@include qodeRelativeHolderLayout();
+			height: 100%;
+			
+			&:after {
+				@include qodeAbsoluteHolderLayout();
+				height: 100%;
+				content: '';
+				opacity: 0;
+				background-color: rgba(0,0,0,.2);
+				@include qodeTransition(opacity 1s cubic-bezier(0.29, 0.22, 0.11, 1));
+			}
+		    
+			&:hover {
+				
+				&:after {
+					opacity: 1;
+				}
+			}
+		}
+
+		img {
+			vertical-align: middle;
+		}
+	}
+
+	.qode-tours-standard-item-content-inner {
+		padding: 26px;
+		background-color: $default-background-color;
+		box-sizing: border-box;
+
+		.qode-tours-standard-item-bottom-item{
+			margin-bottom: 25px;
+		}
+	}
+
+	.qode-tours-standard-item-price-holder {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.qode-tours-standard-item-title-price-holder {
+		position: relative;
+		padding-right: 60px;
+		margin-bottom: -6px;
+		
+		.qode-tour-title {
+			margin: 0 0 8px;
+		}
+	}
+
+	.qode-tours-standard-item-rating {
+
+		.qode-tour-item-rating {
+			color: #999;
+			margin-bottom: 16px;
+		}
+	}
+
+	.qode-tours-standard-item-bottom-content {
+		padding: 16px 30px;
+		color: #fff;
+		background-color: $first-main-color;
+		
+		.qode-tours-standard-item-bottom-item {
+			display: inline-block;
+			margin-right: 24px;
+			
+			&:last-child {
+				margin-right: 0;
+			}
+
+			.qode-tours-tour-categories-holder{
+				.qode-tours-tour-categories-item{
+
+					display: inline-block;
+					margin-right: 24px;
+
+					.qode-tour-cat-item-custom-image{
+						img{
+							width: 20px;
+							position: relative;
+							top: 5px;
+						}
+					}
+				}
+			}
+
+			.qode-tour-destination-holder{
+				a{
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.qode-tour-info-icon {
+		font-size: 14px;
+		margin: 0 5px 0 0;
+		position: relative;
+		top: 3px;
+	}
+
+}
+
+/* Standard type styles end
+   ========================================================================== */

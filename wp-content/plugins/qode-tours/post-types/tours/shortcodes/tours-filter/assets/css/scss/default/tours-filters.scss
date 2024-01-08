@@ -1,0 +1,179 @@
+.qode-tours-filter-vertical {
+	&.qode-tours-filter-skin-white {
+		.qode-boxed-widget {
+			background-color: #fff;
+
+			.qode-tours-input-with-icon {
+
+				input[type=text],
+				input[type=number],
+				select{
+					background-color: #f5f6f6;
+					padding-left: 55px;
+
+					&.qode-tours-price-range-field{
+						background-color: transparent;
+						padding-left: 20px;
+					}
+				}
+			}
+		}
+
+		label{
+			&:before{
+				background-color: #f5f6f6;
+			}
+		}
+	}
+
+	.qode-boxed-widget{
+
+		.qode-tours-input-with-icon {
+
+			input[type=text],
+			input[type=number],
+			select{
+				padding-left: 55px;
+			}
+		}
+
+		.qode-tours-search-main-filters-holder{
+			.qbutton{
+				margin-top: 5px;
+			}
+		}
+	}
+}
+
+.qode-tours-full-width-filter {
+	
+	.qode-container {
+		background-color: transparent;
+	}
+}
+
+.qode-tours-filter-horizontal {
+	background-color: #fff;
+
+	&.qode-tours-filter-skin-light {
+		background-color: #fff;
+
+		&.qode-tours-filter-semitransparent {
+			background-color: rgba(#fff, 0.8);
+		}
+	}
+
+	&.qode-tours-filter-skin-dark {
+		background-color: #303030;
+
+		&.qode-tours-filter-semitransparent {
+			background-color: rgba(#282828, 0.8);
+		}
+	}
+	
+	.qode-grid {
+		padding: 20px 30px 20px;
+		box-sizing: border-box;
+	}
+	
+	@include ipad-landscape {
+		
+		.qode-grid {
+			width: 100%;
+		}
+	}
+	
+	.qode-tours-search-horizontal-filters-holder {
+		&:before,
+		&:after {
+			content: " "; /* 1 */
+			display: table; /* 2 */
+		}
+
+		&:after {
+			clear: both;
+		}
+
+		& {
+			*zoom: 1;
+		}
+	}
+
+	.qode-tours-filters-fields-holder {
+		float: left;
+		width: 100%;
+		display: table;
+		padding: 26px 35px;
+
+		box-sizing: border-box;
+
+		.qode-tours-filter-field-holder {
+			
+			&:before,
+			&:after {
+				content: " "; /* 1 */
+				display: table; /* 2 */
+			}
+
+			&:after {
+				clear: both;
+			}
+
+			& {
+				*zoom: 1;
+			}
+		}
+
+		.qode-tours-filter-submit-field-holder {
+			width: 15%;
+			border-right: none;
+			
+			input[type="submit"] {
+				width: 100%;
+				min-width: 100%;
+				padding-left: 10px;
+				padding-right: 10px;
+				max-height: 56px;
+			}
+		}
+
+		.qode-tours-input-with-icon {
+			width: 100%;
+			margin-bottom: 0;
+			padding: 0 20px 0 0;
+			float: left;
+			box-sizing: border-box;
+			
+			input[type=text],
+			input[type=number],
+			select {
+				padding: 23px 24px 23px 58px;
+				background-color: #faf7f7;
+			}
+			
+			.qode-tours-input-icon {
+				left: 20px;
+				color: #6c6565;
+				font-size: 22px;
+			}
+		}
+	}
+
+	.qode-tours-filter-col {
+		display: table-cell;
+		vertical-align: middle;
+		width: 28.33333333333333%;
+		box-sizing: border-box;
+
+		.qbutton{
+			height: 67px;
+			line-height: 67px;
+		}
+	}
+
+	&.qode-tours-filter-with-shadow{
+		.qode-tours-search-horizontal-filters-holder{
+			@include qodeBoxShadow(0 12px 45px 4px rgba(0,0,0,.1));
+		}
+	}
+}

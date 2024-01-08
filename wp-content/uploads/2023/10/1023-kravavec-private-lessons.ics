@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WooThemes//WooCommerce Bookings 1.16.02//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Adventure Buddy
+X-ORIGINAL-URL:https://adventurebuddy.local:8890/
+X-WR-CALDESC:Bookings from Adventure Buddy
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+DTEND:20231026T050000
+UID:wc_bookings_1023
+DTSTAMP:20231023T194010
+LOCATION:
+DESCRIPTION:Resource #878 - Trainer: Robi\n\nPerson Type #0: 3\n\n
+URL;VALUE=URI:https://adventurebuddy.local:8890/my-account/view-order/1024/
+SUMMARY:#1023 - Kravavec. - Private lessons
+DTSTART:20231026T020000
+END:VEVENT
+END:VCALENDAR

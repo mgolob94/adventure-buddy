@@ -1,0 +1,58 @@
+.qode-tours-search-content .qode-social-share-holder .qode-icon-name {
+	display: none;
+}
+
+.qode-search-ordering-holder {
+	@include qodeRelativeHolderLayout();
+
+	.qode-search-ordering-list {
+		position: relative;
+		display: block;
+		list-style: none;
+		margin: 0;
+		overflow: hidden;
+		vertical-align: middle;
+		background-color: #f9f8f7;
+
+		li {
+			float: left;
+			display: inline-block;
+			vertical-align: middle;
+			
+			&.qode-search-ordering-item-active,
+			&:hover {
+				
+				a {
+					color: #fff;
+					background-color: $first-main-color;
+				}
+			}
+
+			a {
+				position: relative;
+				display: block;
+				margin: 0;
+				padding: 17px 28px 17px 22px;
+				font-size: 15px;
+				font-weight: 400;
+				color: $default-text-color;
+				text-align: center;
+				box-sizing: border-box;
+				@include qodeTransition(color 0.2s ease-in-out, background-color 0.2s ease-in-out, margin 0.2s ease-in-out, padding 0.2s ease-in-out);
+				
+				.qode-search-ordering-icon {
+					font-size: 18px;
+					line-height: 1em;
+					font-weight: 400;
+					position: relative;
+					top: 3px;
+				}
+				
+				.qode-search-ordering-title {
+					line-height: 20px;
+					padding-left: 5px;
+				}
+			}
+		}
+	}
+}

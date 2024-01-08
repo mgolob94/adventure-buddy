@@ -1,0 +1,20 @@
+@include ipad-portrait{
+    .qode-tours-checkout-content-inner{
+        display: block;
+        .qode-tours-image-holder,
+        .qode-tours-info-holder{
+            display: block;
+            width: 100%;
+        }
+
+        .qode-tours-image-holder{
+            margin-bottom: 15px;
+
+            img{
+                display: block;
+                width: 100%;
+            }
+        }
+
+    }
+}

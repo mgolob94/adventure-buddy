@@ -1,0 +1,90 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+#category,
+#location,
+#searchform input {
+	padding: 20px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-col {
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.search-form__wrapper {
+	background: #fff;
+	padding: 20px 0;
+	border-radius: 20px;
+}
+
+.search-form__item {
+	margin: 0 20px;
+}
+
+#searchform button#searchsubmit {
+	position: relative;
+	border: 0;
+	font-size: 25px;
+	margin: 0 20px;
+	background: none;
+	margin-top: 20px !important;
+	/*need to fix asap */
+}
+
+#searchform button#searchsubmit img {
+	width: 40px;
+}
+
+.q_logo a {
+	height: 60px !important;
+}
+
+nav.main_menu>ul>li>a>span:first-of-type:before {
+	background-color: #122448;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.custom-form input,
+.custom-form .hours {
+	height: 27px !important;
+	margin: 5px 0 !important;
+}
+
+.parent {
+	display: grid;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: repeat(14, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.parent > div {
+	text-align: center;
+}
+
+#rmagic-progressbar li {width: 30%;}
+ul#rmagic-progressbar li {display: none;}
+ul#rmagic-progressbar li.active {display: block;}

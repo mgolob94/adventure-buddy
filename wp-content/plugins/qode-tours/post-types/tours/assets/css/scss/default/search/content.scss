@@ -1,0 +1,129 @@
+.qode-tours-search-content {
+	@include qodeRelativeHolderLayout();
+	margin-top: 60px;
+	
+	&.qode-tours-searching {
+		opacity: 0.2;
+	}
+
+	.qode-tours-search-item {
+
+		&.qode-tours-search-list-item {
+			margin-bottom: 60px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+
+.qode-tours-item-with-smaller-spacing {
+	
+	&.qode-tours-search-item {
+		
+		.qode-tours-standard-item {
+			
+			.qode-tours-standard-item-content-inner {
+				padding: 21px 20px;
+				border: 1px solid #ebebeb;
+				border-top: none;
+				border-bottom: none;
+			}
+			
+			@media only screen and (min-width: 1025px) {
+				.qode-tours-standard-item-title-price-holder {
+					padding-right: 80px;
+				}
+			}
+			
+			.qode-tours-standard-item-title-price-holder .qode-tour-title,
+			.qode-tours-price-holder {
+				font-size: 15px;
+			}
+			
+			.qode-tours-price-with-discount {
+				
+				.qode-tours-item-price {
+					font-size: 12px;
+				}
+				
+				.qode-tours-item-discount-price {
+					font-size: 15px;
+				}
+			}
+			
+			.qode-tours-standard-item-excerpt {
+				@include qodeRelativeHolderLayout();
+				margin: 10px 0 0;
+			}
+		}
+		
+		.qode-tours-gallery-item {
+			
+			.qode-tours-gallery-item-image {
+				border: 1px solid #ebebeb;
+				border-top: none;
+				box-sizing: border-box;
+			}
+			
+			.qode-tours-gallery-title-holder .qode-tour-title,
+			.qode-tours-price-holder {
+				font-size: 15px;
+			}
+			
+			.qode-tours-price-with-discount {
+				
+				.qode-tours-item-price {
+					font-size: 12px;
+				}
+				
+				.qode-tours-item-discount-price {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+
+.qode-tours-search-page-holder {
+
+	.qode-tours-search-pagination {
+		margin-top: 60px;
+		margin-bottom: 46px;
+
+		ul{
+			text-align: center;
+
+			li{
+				list-style-type: none;
+				display: inline-block;
+				height: 30px;
+				width: 30px;
+				line-height: 30px;
+				font-size: 20px;
+				font-weight: 500;
+
+				&.active{
+					color: $first-main-color;
+				}
+
+				&.qode-pagination-prev,
+				&.qode-pagination-next{
+					span{
+						position: relative;
+						top: 4px;
+					}
+				}
+
+				a{
+					display: block;
+					
+					&:hover{
+						color: $first-main-color;
+					}
+				}
+			}
+		}
+	}
+}

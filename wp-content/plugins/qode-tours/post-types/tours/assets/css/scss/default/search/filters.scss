@@ -1,0 +1,209 @@
+
+/* #Tour type filters styles - start
+   ========================================================================== */
+.qode-tours-type-filter-item {
+	margin-bottom: 8px;
+}
+
+/* #Tour type filters styles - end
+   ========================================================================== */
+
+/* #Main filters styles - start
+   ========================================================================== */
+.qode-tours-search-main-filters-holder {
+	
+	&.qode-boxed-widget {
+		
+		.qode-tours-input-with-icon {
+			padding: 0;
+			
+			input[type=text],
+			input[type=number],
+			select {
+				padding-right: 43px;
+			}
+			
+			input[type=text].qode-tours-price-range-field {
+				padding-left: 20px;
+			}
+		}
+	}
+	
+	.qode-tours-input-with-icon {
+		padding: 0 20px;
+		
+		input[type=text],
+		input[type=number],
+		select {
+			padding: 10px 40px 10px 15px;
+		}
+		
+		input[type=text].qode-tours-price-range-field {
+			padding-left: 0;
+		}
+
+		.qode-tours-input-icon{
+		    right: 0;
+    		left: initial;
+    		width: 40px;
+    		height: 38px;
+    		line-height: 38px;
+    		text-align: center;
+    		border-left: 1px solid #ebebeb
+		}
+
+	}
+	
+	* {
+		box-sizing: border-box;
+	}
+
+	input[type=checkbox] {
+		display: none;
+	}
+
+	label {
+		vertical-align: middle;
+		font-size: 14px;
+
+		-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none;   /* Chrome/Safari/Opera */
+		-khtml-user-select: none;    /* Konqueror */
+		-moz-user-select: none;      /* Firefox */
+		-ms-user-select: none;       /* IE/Edge */
+		user-select: none;
+
+		cursor: pointer;
+	}
+
+	label:before {
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 10px;
+		font-family: ElegantIcons;
+		font-size: 13px;
+		text-align: center;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		background-color: #fff;
+		box-sizing: border-box;
+	}
+
+	input[type=checkbox]:checked + label:before {
+		content: '\4e';
+		color: #fff;
+		background-color: $first-main-color;
+	}
+
+	.qode-tours-search-main-filters-title {
+		margin-bottom: 25px;
+		text-align: center;
+		
+		h4 {
+			margin: 0;
+		}
+	}
+
+
+	.qode-tours-range-input {
+		height: 3px;
+		border: none;
+		background-color: $first-main-color;
+		margin-bottom: 26px;
+		margin-top: 29px;
+		box-shadow: none;
+
+		.noUi-base,
+		.noUi-background {
+			background-color: #ebebeb;
+			box-shadow: none;
+		}
+
+		.noUi-connect {
+			background-color: $first-main-color;
+			box-shadow: none;
+		}
+
+		.noUi-handle {
+			width: 14px;
+			height: 14px;
+			top: -6px;
+			left: -4px;
+			background-color: $first-main-color;
+			border: none;
+			border-radius: 50%;
+			box-shadow: none;
+
+			&:after,
+			&:before {
+				content: none;
+			}
+
+			&:hover {
+				cursor: move;
+			}
+		}
+	}
+	
+	.qode-btn {
+		width: 100%;
+		display: block;
+		margin-top: 19px;
+	}
+	
+	select option {
+		color: #000;
+	}
+}
+
+.typeahead {
+	background-color: #fff;
+}
+
+.typeahead:focus {
+	border: 2px solid #0097cf;
+}
+
+.tt-hint {
+	color: #999
+}
+
+.tt-menu {
+	width: 101%;
+	margin: 10px 0;
+	padding: 8px 0;
+	background-color: #fff;
+	border: 1px solid #ebebeb;
+
+	left: -1px !important;
+
+	font-size: 13px;
+}
+
+.twitter-typeahead {
+	width: 100%;
+}
+
+.tt-suggestion {
+	padding: 3px 15px;
+}
+
+.tt-suggestion:hover {
+	cursor: pointer;
+	color: #fff;
+	background-color: $first-main-color;
+}
+
+.tt-suggestion.tt-cursor {
+	color: #fff;
+	background-color: $first-main-color;
+}
+
+.tt-suggestion p {
+	margin: 0;
+}
+
+/* #Main filters styles - end
+   ========================================================================== */

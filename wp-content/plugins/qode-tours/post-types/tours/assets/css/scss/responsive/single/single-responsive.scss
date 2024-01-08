@@ -1,0 +1,20 @@
+.qode-tour-item-single-holder{
+	.qode-tabs{
+		&.qode-horizontal{
+			.qode-tabs-nav{
+				li{
+					a{
+						@include ipad-portrait{
+							padding: 14px;
+						}
+					}
+
+					@include phone-landscape{
+						display: block;
+						float: none;	
+					}
+				}
+			}
+		}
+	}
+}

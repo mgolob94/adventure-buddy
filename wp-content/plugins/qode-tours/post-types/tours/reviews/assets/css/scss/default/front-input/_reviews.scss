@@ -1,0 +1,124 @@
+.qode-tour-item-single-holder {
+	#tab-tour-item-review-id {
+		.qode-comment-rating-box {
+			display: inline-block;
+			margin-left: 18px;
+			vertical-align: middle;
+
+			.qode-star-rating {
+				position: relative;
+				display: inline-block;
+				font-family: 'ElegantIcons';
+				color: #c8c8c8;
+				font-size: 16px;
+				letter-spacing: 5px;
+				cursor: pointer;
+				overflow: hidden;
+				@include qodeTransition(all 0.3s ease);
+				color: #ffd740;
+
+				&.active{
+					&:before{
+						content: '\e033';
+					}
+				}
+
+				&:before {
+					content: '\e031';
+				}
+			}
+		}
+
+		.qode-comments {
+			.qode-comment-list {
+				li {
+					border-top: 1px solid #ebebeb;
+					padding: 40px 0;
+					margin: 0;
+					list-style-type: none;
+					.qode-comment-image {
+						display: block;
+						width: 76px;
+						float: left;
+					}
+					.qode-comment-image {
+						display: block;
+						width: 76px;
+						float: left;
+						img {
+							border-radius: 50%;
+						}
+					}
+					.qode-comment-text {
+						padding: 0 0 0 90px;
+					}
+					.qode-review-rating {
+						.qode-rating-inner {
+							float: left;
+							display: inline-block;
+							margin-right: 25px;
+							width: auto;
+							.qode-rating-label {
+								display: block;
+							}
+							.qode-rating-value {
+								color: #ffd480;
+								font-size: 16px;
+							}
+						}
+					}
+					.qode-text-holder {
+						margin: 15px 0;
+						.qode-review-title {
+							* {
+								font-weight: 600;
+								margin-bottom: 10px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.qode-comment-form {
+			.qode-comment-form-inner {
+				text-align: center;
+			}
+			.comment-respond {
+				display: none;
+				margin-top: 20px;
+				text-align: left;
+			}
+		}
+
+		.comment-form {
+			.qode-comment-form-rating {
+				label {
+					display: block;
+				}
+				.qode-comment-rating-box {
+					float: none;
+					display: block;
+					margin: 10px 0 20px;
+					.qode-comment-form-rating {
+						display: inline-block;
+						margin-right: 20px;
+					}
+					.qode-star-rating {
+						&.active {
+							color: #ffd740;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.qode-tours-reviews-list-top {
+		&.qode-tours-review-hidden-comments {
+			.qode-comment-holder-inner {
+				display: none;
+			}
+		}
+	}
+}

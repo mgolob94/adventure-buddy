@@ -1,0 +1,2208 @@
+# Copyright (C) 2021 Qode Themes
+# This file is distributed under the same license as the Qode Tours plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Qode Tours 3.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/qode-tours\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-11-04T12:54:54+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.3.0\n"
+"X-Domain: qode-tours\n"
+
+#. Plugin Name of the plugin
+#: load.php:44
+msgid "Qode Tours"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds tours post types needed by theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Qode Themes"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:39
+#: admin/booking-dashboard/booking-table.php:17
+msgid "Booking"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:100
+msgid "Qode Tours Bookings"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:153
+msgid "Booking Status successfully changed!"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:158
+msgid "Booking Status cannot be changed!"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:188
+#: admin/booking-dashboard/booking-dashboard.php:191
+msgid "Booking For"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:188
+#: admin/booking-dashboard/booking-dashboard.php:189
+#: admin/booking-dashboard/booking-dashboard.php:191
+#: admin/booking-dashboard/booking-dashboard.php:192
+#: post-types/tours/lib/booking-handler.php:490
+#: post-types/tours/lib/booking-handler.php:536
+msgid "on"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:188
+msgid "confirmed"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:189
+msgid "We have succesfully received your payment for"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:191
+msgid "canceled"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:192
+msgid "There was an error with your payment for"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:192
+msgid "Please contact the administrator for further information"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:200
+#: post-types/tours/lib/booking-handler.php:497
+#: post-types/tours/lib/booking-handler.php:543
+#: post-types/tours/shortcodes/tour-type-list/templates/tour-type-list.php:25
+msgid "From"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:201
+#: post-types/tours/lib/booking-handler.php:499
+#: post-types/tours/lib/booking-handler.php:545
+#: post-types/tours/templates/checkout/checkout-form.php:49
+#: post-types/tours/templates/single/booking-form.php:59
+msgid "Message"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:202
+#: post-types/tours/lib/booking-handler.php:500
+#: post-types/tours/lib/booking-handler.php:546
+msgid "Number of Tickets"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:203
+#: admin/booking-dashboard/booking-table.php:182
+#: post-types/tours/admin/meta-boxes/map.php:43
+#: post-types/tours/lib/booking-handler.php:501
+#: post-types/tours/lib/booking-handler.php:547
+msgid "Price"
+msgstr ""
+
+#: admin/booking-dashboard/booking-dashboard.php:204
+#: post-types/tours/lib/booking-handler.php:505
+#: post-types/tours/lib/booking-handler.php:551
+msgid "Departure Date"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:16
+msgid "Bookings"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:79
+msgid "by"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:109
+#: post-types/tours/lib/booking-handler.php:241
+msgid "ticket"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:109
+#: post-types/tours/lib/booking-handler.php:241
+msgid "tickets"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:131
+msgid "Approve"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:132
+msgid "Cancel"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:178
+msgid "Booking Info"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:179
+msgid "Tour Name"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:180
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:89
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:119
+#: post-types/tours/admin/options/map.php:238
+#: post-types/tours/lib/template-helpers.php:662
+#: post-types/tours/lib/tours-query.php:59
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:149
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:202
+msgid "Date"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:181
+msgid "Amount"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:183
+msgid "Booking Status"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:184
+msgid "Payment Status"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:185
+#: post-types/tours/lib/booking-handler.php:504
+#: post-types/tours/lib/booking-handler.php:550
+msgid "User Message"
+msgstr ""
+
+#: admin/booking-dashboard/booking-table.php:186
+msgid "Actions"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:10
+msgid "Tour Booking"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:18
+msgid "Add New Period"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:23
+msgid "Start Date"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:33
+msgid "End Date"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:43
+msgid "Tour Days"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:45
+msgid "Monday"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:46
+msgid "Tuesday"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:47
+msgid "Wednesday"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:48
+msgid "Thursday"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:49
+msgid "Friday"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:50
+msgid "Saturday"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:51
+msgid "Sunday"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:58
+#: post-types/tours/admin/meta-boxes/map.php:115
+#: post-types/tours/lib/template-helpers.php:356
+msgid "Departure Time"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:59
+msgid "Add New Time"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:73
+msgid "Tickets"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:79
+msgid "Price Changes"
+msgstr ""
+
+#: admin/meta-boxes/tour-booking/booking-meta-box.php:80
+msgid "Use this field for defining special price for this period. Use \"%\" in front of the number to change the price in percentage."
+msgstr ""
+
+#: helpers.php:582
+msgid "No Selected"
+msgstr ""
+
+#: post-types/destinations/destinations-register.php:75
+#: post-types/destinations/destinations-register.php:76
+msgid "Qode Destination"
+msgstr ""
+
+#: post-types/destinations/destinations-register.php:77
+msgid "Destination Items"
+msgstr ""
+
+#: post-types/destinations/destinations-register.php:78
+#: post-types/destinations/destinations-register.php:81
+msgid "Add New Destination Item"
+msgstr ""
+
+#: post-types/destinations/destinations-register.php:79
+msgid "Destination Item"
+msgstr ""
+
+#: post-types/destinations/destinations-register.php:80
+msgid "New Destination Item"
+msgstr ""
+
+#: post-types/destinations/destinations-register.php:82
+msgid "Edit Destination Item"
+msgstr ""
+
+#: post-types/destinations/helper-functions.php:55
+msgid "Destinations"
+msgstr ""
+
+#: post-types/destinations/helper-functions.php:87
+msgid "Select Your Destination"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:25
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:9
+msgid "Destinations Grid"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:27
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:27
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:27
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:32
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:23
+#: post-types/tours/shortcodes/tours-list/tours-list.php:35
+msgid "by QODE TOURS"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:33
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:33
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:48
+#: post-types/tours/shortcodes/tours-list/tours-list.php:55
+msgid "Number of Columns"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:36
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:50
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:53
+#: post-types/tours/admin/meta-boxes/map.php:163
+#: post-types/tours/admin/meta-boxes/map.php:177
+msgid "Default"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:47
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:50
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:47
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:61
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:33
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:86
+#: post-types/tours/shortcodes/tours-list/tours-list.php:84
+msgid "Image Proportions"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:51
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:54
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:50
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:64
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:89
+#: post-types/tours/shortcodes/tours-list/tours-list.php:87
+msgid "Original"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:52
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:55
+#: post-types/tours/admin/options/map.php:287
+#: post-types/tours/admin/options/map.php:331
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:51
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:65
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:90
+#: post-types/tours/shortcodes/tours-list/tours-list.php:88
+msgid "Square"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:53
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:56
+#: post-types/tours/admin/options/map.php:285
+#: post-types/tours/admin/options/map.php:329
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:52
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:66
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:91
+#: post-types/tours/shortcodes/tours-list/tours-list.php:89
+msgid "Landscape"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:54
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:57
+#: post-types/tours/admin/options/map.php:286
+#: post-types/tours/admin/options/map.php:330
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:53
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:67
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:92
+#: post-types/tours/shortcodes/tours-list/tours-list.php:90
+msgid "Portrait"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:55
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:58
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:54
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:68
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:93
+#: post-types/tours/shortcodes/tours-list/tours-list.php:91
+msgid "Custom"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:60
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:67
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:66
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:73
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:105
+#: post-types/tours/shortcodes/tours-list/tours-list.php:98
+msgid "Image Dimensions"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:62
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:69
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:68
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:75
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:123
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:107
+#: post-types/tours/shortcodes/tours-list/tours-list.php:100
+msgid "Enter custom image dimensions. Enter image size in pixels: 200x100 (Width x Height)"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:67
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:79
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:78
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:80
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:117
+#: post-types/tours/shortcodes/tours-list/tours-list.php:105
+msgid "Space Between Items"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:70
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:82
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:81
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:83
+msgid "Medium"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:71
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:83
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:82
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:84
+msgid "Small"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:72
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:84
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:83
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:85
+msgid "Tiny"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:73
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:85
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:84
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:86
+msgid "None"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:79
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:94
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:41
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:40
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:93
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:92
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:126
+#: post-types/tours/shortcodes/tours-list/tours-list.php:112
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:54
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:50
+msgid "Title Tag"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:84
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:114
+#: post-types/tours/lib/tours-query.php:55
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:41
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:38
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:145
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:198
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:38
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:38
+msgid "Order By"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:87
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:117
+#: post-types/tours/lib/tours-query.php:60
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:150
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:203
+msgid "Menu Order"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:88
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:118
+#: post-types/tours/admin/meta-boxes/map.php:489
+#: post-types/tours/admin/meta-boxes/map.php:547
+#: post-types/tours/lib/tours-query.php:58
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:33
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:34
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:148
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:201
+msgid "Title"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:92
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:103
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:111
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:118
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:106
+#: post-types/tours/lib/tours-query.php:51
+#: post-types/tours/lib/tours-query.php:63
+#: post-types/tours/lib/tours-query.php:74
+#: post-types/tours/lib/tours-query.php:81
+#: post-types/tours/lib/tours-query.php:88
+#: post-types/tours/lib/tours-query.php:95
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:114
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:181
+msgid "Query Options"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:96
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:128
+#: post-types/tours/lib/tours-query.php:67
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:159
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:212
+#: post-types/tours/tax-custom-fields.php:50
+#: post-types/tours/tax-custom-fields.php:79
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:48
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:44
+msgid "Order"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:99
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:131
+#: post-types/tours/lib/tours-query.php:70
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:56
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:50
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:162
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:215
+msgid "ASC"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:100
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:132
+#: post-types/tours/lib/tours-query.php:71
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:57
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:51
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:163
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:216
+msgid "DESC"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:107
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:141
+msgid "Number of Destinations Per Page"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:110
+#: post-types/tours/lib/tours-query.php:50
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:138
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:191
+msgid "Enter -1 to show all"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:115
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:150
+msgid "Show Only Destinations with Listed IDs"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/destination-grid.php:117
+#: post-types/tours/lib/tours-query.php:87
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:183
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:236
+msgid "Delimit ID numbers by comma (leave empty for all)"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:25
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:25
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:25
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:25
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:25
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:25
+msgid "Design Options"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:143
+msgid "(Enter -1 to show all)"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/elementor-destination-grid.php:152
+msgid "Delimit ID numbers by comma (leave empty for all"
+msgstr ""
+
+#: post-types/destinations/shortcodes/destination-grid/templates/destination-grid-template.php:32
+msgid "No destinations matched your criteria."
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:10
+msgid "Info Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:20
+msgid "Show Info Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:53
+msgid "Discount Price"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:63
+msgid "Duration"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:73
+#: post-types/tours/lib/template-helpers.php:333
+msgid "Destination"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:84
+msgid "Custom Label"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:85
+msgid "Define custom label which will show on tour lists and tour single pages"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:95
+msgid "Minimum Years Required"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:105
+msgid "Departure/Return Location"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:125
+#: post-types/tours/lib/template-helpers.php:367
+msgid "Return Time"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:135
+#: post-types/tours/lib/template-helpers.php:378
+msgid "Dress Code"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:152
+msgid "Masonry List Settings"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:161
+msgid "Masonry Layout"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:164
+#: post-types/tours/admin/meta-boxes/map.php:244
+msgid "Description"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:175
+msgid "Masonry Dimensions"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:178
+msgid "Large Width"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:179
+msgid "Large Height"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:180
+msgid "Large Width/Height"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:191
+msgid "List Image"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:206
+#: post-types/tours/helper-functions.php:205
+msgid "Tour Plan"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:216
+msgid "Show Tour Plan Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:238
+msgid "Add new Tour Plan Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:243
+msgid "Tour Plan Section Title"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:249
+msgid "Tour Plan Section Description"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:250
+msgid "Description field"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:266
+msgid "Location Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:276
+msgid "Show Location Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:299
+msgid "Location Excerpt"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:309
+msgid "Address 1"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:319
+msgid "Address 2"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:329
+msgid "Address 3"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:339
+msgid "Address 4"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:349
+msgid "Address 5"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:359
+msgid "Location Content"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:374
+msgid "Gallery Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:384
+msgid "Show Gallery Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:407
+msgid "Excerpt"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:416
+msgid "Gallery Images"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:417
+msgid "Choose your gallery images"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:431
+msgid "Review Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:440
+msgid "Show Review Section"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:456
+#: post-types/tours/helper-functions.php:225
+msgid "Custom Section 1"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:466
+msgid "Show Custom Section 1"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:499
+#: post-types/tours/admin/meta-boxes/map.php:557
+msgid "Content"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:514
+#: post-types/tours/helper-functions.php:231
+msgid "Custom Section 2"
+msgstr ""
+
+#: post-types/tours/admin/meta-boxes/map.php:524
+msgid "Show Custom Section 2"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:9
+msgid "Tours"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:16
+msgid "Payment"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:26
+msgid "PayPal"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:35
+msgid "Enable Paypal"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:36
+msgid "This option will enable/disable Paypal payment"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:60
+msgid "Account ID"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:61
+msgid "Insert Business Account ID (Email)"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:71
+msgid "Currency"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:72
+msgid "Payment Currency"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:75
+msgid "U.S. Dollar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:76
+msgid "Euro"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:77
+msgid "Pound Sterling"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:78
+msgid "Australian Dollar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:79
+msgid "Swiss Franc"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:80
+msgid "Brazilian Real"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:81
+msgid "Canadian Dollar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:82
+msgid "Czech Koruna"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:83
+msgid "Danish Krone"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:84
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:85
+msgid "Hungarian Forint"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:86
+msgid "Israeli New Sheqel"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:87
+msgid "Japanese Yen"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:88
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:89
+msgid "Mexican Peso"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:90
+msgid "Norwegian Krone"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:91
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:92
+msgid "Philippine Peso"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:93
+msgid "Polish Zloty"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:94
+msgid "Singapore Dollar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:95
+msgid "Swedish Krona"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:96
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:97
+msgid "Thai Baht"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:98
+msgid "Turkish Lira"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:105
+msgid "Settings"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:118
+msgid "Checkout Page"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:119
+msgid "Choose checkout page"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:133
+msgid "Price Currency"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:134
+msgid "Insert currency for tour prices"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:147
+msgid "Price Currency Position"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:148
+msgid "Choose position for your currency symbol"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:151
+msgid "Left"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:152
+msgid "Right"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:164
+msgid "Search Page"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:176
+msgid "Main Search Page"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:177
+msgid "Choose main search page. Defaults to tour item archive page"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:191
+msgid "Items per Page"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:192
+msgid "Choose number of tour items per page"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:205
+msgid "Default Tour View Type"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:206
+msgid "Choose default tour view type"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:208
+msgid "List"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:209
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:36
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:42
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:36
+#: post-types/tours/shortcodes/tours-list/tours-list.php:45
+msgid "Standard"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:210
+#: post-types/tours/helper-functions.php:215
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:37
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:43
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:37
+#: post-types/tours/shortcodes/tours-list/tours-list.php:46
+msgid "Gallery"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:235
+msgid "Default Tour Ordering"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:236
+msgid "Choose default tour ordering"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:239
+msgid "Price Low to High"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:240
+msgid "Price High to Low"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:241
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:44
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:41
+#: post-types/tours/tax-custom-fields.php:77
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:40
+msgid "Name"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:267
+msgid "Standard Item Text Length"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:268
+msgid "Choose number of words for standard tour item"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:281
+msgid "Standard Thumbnail Size"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:282
+msgid "Choose thumbnail size for standard tour item"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:284
+#: post-types/tours/admin/options/map.php:328
+msgid "Full"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:313
+msgid "Gallery Item Text Length"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:314
+msgid "Choose number of words for gallery tour item"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:333
+msgid "Gallery Thumbnail Size"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:334
+msgid "Choose thumbnail size for gallery tour item"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:359
+msgid "List Item Text Length"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:360
+msgid "Choose number of words for list tour item"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:369
+#: post-types/tours/helper-functions.php:220
+#: post-types/tours/reviews/reviews-functions.php:305
+msgid "Reviews"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:381
+msgid "Reviews Section Title"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:382
+msgid "Enter title that you want to show before average rating for each tour"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:392
+msgid "Reviews Section Subtitle"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:393
+msgid "Enter subtitle that you want to show before average rating for each tour"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:403
+msgid "Display review's comments in reviews section"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:404
+msgid "Enable this option if you would like to show actual reviews on reviews section"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:414
+msgid "Reviews Section Template"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:415
+msgid "Please choose template for displaying reviews section on single tour item"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:417
+msgid "Per Criteria"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:418
+msgid "Per Mark"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:419
+msgid "Simple"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:420
+msgid "Stars"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:428
+msgid "Tour Item Sidebar"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:439
+msgid "Tour Item Booking Form Background Image"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:440
+msgid "Choose background image for booking form present on single tour item"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:448
+msgid "Admin Booking Email"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:460
+msgid "Should Admin Receive Booking Emails?"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:461
+msgid "Enabling this option will forward all booking emails to the site administrator’s inbox"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:484
+msgid "Admin Email"
+msgstr ""
+
+#: post-types/tours/admin/options/map.php:485
+msgid "Input the site administrator’s email address. If you leave this field empty, booking emails will be sent to the default admin’s email address"
+msgstr ""
+
+#: post-types/tours/helper-functions.php:54
+#: post-types/tours/tours-register.php:81
+msgid "Tour Item"
+msgstr ""
+
+#: post-types/tours/helper-functions.php:200
+msgid "Information"
+msgstr ""
+
+#: post-types/tours/helper-functions.php:210
+msgid "Location"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:112
+msgid "There was some booking error. Please try again later"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:114
+msgid "Booking successful"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:167
+msgid "Tour doesn't have price defined"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:242
+msgid "We have"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:242
+msgid "left"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:244
+msgid "Booking available"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:421
+msgid "Please enter your name"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:422
+msgid "Please enter valid email"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:423
+msgid "Email and confirmation email field aren't the same"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:424
+msgid "Please choose date"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:425
+msgid "Chosen date is not available"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:426
+msgid "Please choose time"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:427
+msgid "Please choose number of tickets"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:488
+msgid "We have received your reservation for"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:488
+msgid "Your booking will be complete upon payment."
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:490
+#: post-types/tours/lib/booking-handler.php:536
+msgid "Booking Information For"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:498
+#: post-types/tours/lib/booking-handler.php:544
+msgid "User Name"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:502
+#: post-types/tours/lib/booking-handler.php:548
+msgid "User Email"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:503
+#: post-types/tours/lib/booking-handler.php:549
+msgid "User Phone"
+msgstr ""
+
+#: post-types/tours/lib/booking-handler.php:534
+msgid "You have received the reservation for"
+msgstr ""
+
+#: post-types/tours/lib/helpers.php:42
+msgid "Tour Single Sidebar"
+msgstr ""
+
+#: post-types/tours/lib/helpers.php:44
+msgid "Sidebar that is displayed on tour single page"
+msgstr ""
+
+#: post-types/tours/lib/helpers.php:61
+msgid "Tour Search Sidebar"
+msgstr ""
+
+#: post-types/tours/lib/helpers.php:63
+msgid "Sidebar that is displayed on tour search page"
+msgstr ""
+
+#: post-types/tours/lib/helpers.php:179
+msgid "Tours Search"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:140
+msgid "Learn more"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:261
+msgid "Age"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:345
+msgid "Departure"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:399
+msgid "Included"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:418
+msgid "Not Included"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:615
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:33
+msgid "Month"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:616
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:34
+msgid "January"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:617
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:35
+msgid "February"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:618
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:36
+msgid "March"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:619
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:37
+msgid "April"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:620
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:38
+msgid "May"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:621
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:39
+msgid "June"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:622
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:40
+msgid "July"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:623
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:41
+msgid "August"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:624
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:42
+msgid "September"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:625
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:43
+msgid "October"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:626
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:44
+msgid "November"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:627
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:45
+msgid "December"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:668
+msgid "Price low to high"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:674
+msgid "Price from high to low"
+msgstr ""
+
+#: post-types/tours/lib/template-helpers.php:680
+msgid "Name (A - Z)"
+msgstr ""
+
+#: post-types/tours/lib/tours-query.php:47
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:136
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:189
+msgid "Number of Tours Per Page"
+msgstr ""
+
+#: post-types/tours/lib/tours-query.php:79
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:172
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:225
+#: post-types/tours/tours-register.php:112
+msgid "Tour Category"
+msgstr ""
+
+#: post-types/tours/lib/tours-query.php:80
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:174
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:227
+msgid "Enter one tour category slug (leave empty for showing all categories)"
+msgstr ""
+
+#: post-types/tours/lib/tours-query.php:86
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:181
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:234
+msgid "Show Only Tours with Listed IDs"
+msgstr ""
+
+#: post-types/tours/lib/tours-query.php:93
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:190
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:243
+msgid "Destination Name"
+msgstr ""
+
+#: post-types/tours/lib/tours-query.php:94
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:192
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:245
+msgid "Display tour items from filled destination"
+msgstr ""
+
+#: post-types/tours/profile/dashboard-functions.php:15
+msgid "My Bookings"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:13
+msgid "Name:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:18
+msgid "Booking ID:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:24
+#: post-types/tours/templates/checkout/checkout-content.php:37
+msgid "Departure Date:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:30
+msgid "Departure Time:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:37
+msgid "Number of Tickets:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:44
+msgid "Payment Status:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:50
+msgid "Description:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:55
+#: post-types/tours/templates/checkout/checkout-content.php:41
+msgid "Total Price:"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:90
+#: post-types/tours/profile/templates/my-bookings.php:93
+#: post-types/tours/templates/checkout/checkout-content.php:15
+#: post-types/tours/templates/checkout/checkout-content.php:77
+#: post-types/tours/templates/checkout/checkout-content.php:80
+msgid "Pay with paypal"
+msgstr ""
+
+#: post-types/tours/profile/templates/my-bookings.php:102
+msgid "You still don't have any bookings."
+msgstr ""
+
+#: post-types/tours/reviews/reviews-functions.php:195
+msgid "Rate Here"
+msgstr ""
+
+#: post-types/tours/reviews/reviews-functions.php:210
+msgid "Title of your Review"
+msgstr ""
+
+#: post-types/tours/reviews/reviews-functions.php:305
+msgid "Review"
+msgstr ""
+
+#: post-types/tours/reviews/reviews-functions.php:415
+msgid "Poor"
+msgstr ""
+
+#: post-types/tours/reviews/reviews-functions.php:416
+msgid "Good"
+msgstr ""
+
+#: post-types/tours/reviews/reviews-functions.php:417
+msgid "Superb"
+msgstr ""
+
+#: post-types/tours/reviews/templates/admin/title-field.php:2
+msgid "Comment Title"
+msgstr ""
+
+#: post-types/tours/reviews/templates/front-input/title-field.php:2
+msgid "Title of your Reviews"
+msgstr ""
+
+#: post-types/tours/reviews/templates/front-list/details-per-mark.php:6
+msgid "Rating"
+msgstr ""
+
+#: post-types/tours/reviews/templates/front-list/details-per-mark.php:6
+msgid "Ratings"
+msgstr ""
+
+#: post-types/tours/reviews/templates/front-list/details-per-mark.php:24
+msgid "Rated"
+msgstr ""
+
+#: post-types/tours/reviews/templates/front-list/details-per-mark.php:24
+msgid "out of"
+msgstr ""
+
+#: post-types/tours/reviews/templates/front-list/details-per-mark.php:34
+msgid " stars"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:9
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:25
+msgid "Top Reviews Carousel"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:59
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:59
+msgid "Number of Reviews"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:61
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:60
+msgid "Leave empty for all"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:68
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:65
+msgid "Order by Review Criteria"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/elementor-top-reviews-carousel.php:77
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:72
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:76
+#: post-types/tours/shortcodes/tours-list/tours-list.php:75
+msgid "Enable Shadow"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:54
+msgid "Title Color"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:73
+msgid "Enable this option if you would like to show shadow around reviews' box"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:75
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:68
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:64
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:74
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:84
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:100
+#: post-types/tours/shortcodes/tours-list/tours-list.php:78
+#: post-types/tours/shortcodes/tours-list/tours-list.php:126
+#: post-types/tours/shortcodes/tours-list/tours-list.php:137
+#: post-types/tours/tax-custom-fields.php:63
+#: post-types/tours/tax-custom-fields.php:94
+msgid "No"
+msgstr ""
+
+#: post-types/tours/shortcodes/top-reviews-carousel/top-reviews-carousel.php:76
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:69
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:63
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:73
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:83
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:99
+#: post-types/tours/shortcodes/tours-list/tours-list.php:79
+#: post-types/tours/shortcodes/tours-list/tours-list.php:127
+#: post-types/tours/shortcodes/tours-list/tours-list.php:138
+#: post-types/tours/tax-custom-fields.php:64
+#: post-types/tours/tax-custom-fields.php:94
+msgid "Yes"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:9
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:25
+msgid "Tour Type List"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:33
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:33
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:121
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:90
+msgid "Number of Tour Types"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:45
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:42
+msgid "Count"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:53
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:47
+msgid "Order Type"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:66
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:56
+msgid "Choose Hover Color"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:69
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:59
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:44
+msgid "White"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:70
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:60
+msgid "Gray"
+msgstr ""
+
+#: post-types/tours/shortcodes/tour-type-list/elementor-tour-type-list.php:78
+#: post-types/tours/shortcodes/tour-type-list/tour-type-list.php:65
+msgid "Split in Two Columns"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:9
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:30
+msgid "Tours Carousel"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:33
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:39
+#: post-types/tours/shortcodes/tours-list/tours-list.php:42
+msgid "Tours List Type"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:40
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:46
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:41
+#: post-types/tours/shortcodes/tours-list/tours-list.php:51
+msgid "Default value is Standard"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:103
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:97
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:136
+#: post-types/tours/shortcodes/tours-list/tours-list.php:117
+msgid "Text Length"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:105
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:99
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:138
+#: post-types/tours/shortcodes/tours-list/tours-list.php:119
+msgid "Number of words"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/elementor-tours-carousel.php:122
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:50
+msgid "Number of visible Tours"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/templates/tours-carousel-holder.php:13
+#: post-types/tours/shortcodes/tours-list/templates/tours-list-holder.php:61
+msgid "No tours match your criteria"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:53
+msgid "Two"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:54
+msgid "Three"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-carousel/tours-carousel.php:55
+msgid "Four"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:9
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:21
+msgid "Tours Filters"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:33
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:29
+msgid "Type"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:36
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:32
+msgid "Vertical"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:37
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:33
+msgid "Horizontal"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:46
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:61
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:40
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:50
+msgid "Skin"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:76
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:60
+msgid "Filter Full Width"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:91
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:70
+msgid "Filter Semi-Transparent"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:106
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:80
+msgid "Show Tour Types Checkboxes"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/elementor-tours-filter.php:134
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:96
+msgid "Enable Filter Shadow"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:23
+msgid "Where to?"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:56
+msgid "Travel Type"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:71
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:77
+msgid "FIND NOW"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:73
+#: post-types/tours/shortcodes/tours-filter/templates/tours-filters-holder.php:77
+#: post-types/tours/templates/search/main-filters.php:79
+#: post-types/tours/templates/search/main-filters.php:83
+msgid "Searching..."
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:43
+msgid "Grey"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:53
+msgid "Light"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-filter/tours-filter.php:54
+msgid "Dark"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:9
+#: post-types/tours/shortcodes/tours-list/tours-list.php:33
+msgid "Tours List"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:38
+#: post-types/tours/shortcodes/tours-list/tours-list.php:47
+msgid "Masonry"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:145
+#: post-types/tours/shortcodes/tours-list/tours-list.php:123
+msgid "Enable Category Filter"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:149
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:160
+#: post-types/tours/shortcodes/tours-list/tours-list.php:130
+msgid "Default value is No"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:156
+#: post-types/tours/shortcodes/tours-list/tours-list.php:134
+msgid "Enable Load More"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:167
+#: post-types/tours/shortcodes/tours-list/tours-list.php:144
+msgid "Load More Button Text"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:169
+msgid "Default text is \"Load More"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:274
+#: post-types/tours/shortcodes/tours-list/tours-list.php:196
+msgid "Load More"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:321
+#: post-types/tours/shortcodes/tours-list/tours-list.php:242
+msgid "Success"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/elementor-tours-list.php:325
+#: post-types/tours/shortcodes/tours-list/tours-list.php:246
+msgid "No more tours."
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/templates/tours-list-holder.php:23
+msgid "All"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/templates/tours-list-holder.php:48
+#: post-types/tours/shortcodes/tours-list/templates/tours-list-holder.php:53
+msgid "Loading..."
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/tours-list.php:69
+msgid "Hover Background Overlay"
+msgstr ""
+
+#: post-types/tours/shortcodes/tours-list/tours-list.php:147
+msgid "Default text is \"Load More\""
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:17
+msgid "Choose Icon"
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:18
+msgid "Choose icon from icon pack for category."
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:27
+msgid "Custom Image"
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:28
+msgid "Choose custom image for category."
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:51
+msgid "If there are multiple criteria, they will be displayed in an ascending order."
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:60
+msgid "Show in Reviews"
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:61
+msgid "All the criteria can be rated when leaving a review, but only those marked to be shown will be displayed in the list of reviews."
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:78
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:41
+msgid "Slug"
+msgstr ""
+
+#: post-types/tours/tax-custom-fields.php:80
+msgid "Shown in Reviews"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-content.php:6
+msgid "You have succcessfully completed payment process. Enjoy your tour!"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-content.php:12
+msgid "Return to home"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-content.php:30
+msgid "You have successfully booked "
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-content.php:30
+msgid " ticket(s) for "
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-content.php:33
+msgid "Tour Description:"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-form.php:7
+#: post-types/tours/templates/single/booking-form.php:9
+msgid "Name *"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-form.php:15
+#: post-types/tours/templates/single/booking-form.php:17
+msgid "Email *"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-form.php:23
+#: post-types/tours/templates/single/booking-form.php:33
+msgid "Phone"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-form.php:41
+#: post-types/tours/templates/single/booking-form.php:51
+msgid "Number of tickets *"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-form.php:85
+#: post-types/tours/templates/single/booking-form.php:109
+msgid "Book now"
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-form.php:87
+#: post-types/tours/templates/checkout/checkout-form.php:93
+#: post-types/tours/templates/single/booking-form.php:111
+#: post-types/tours/templates/single/booking-form.php:117
+msgid "Working..."
+msgstr ""
+
+#: post-types/tours/templates/checkout/checkout-form.php:88
+#: post-types/tours/templates/checkout/checkout-form.php:93
+#: post-types/tours/templates/single/booking-form.php:112
+#: post-types/tours/templates/single/booking-form.php:117
+msgid "Redirecting..."
+msgstr ""
+
+#: post-types/tours/templates/search/main-filters.php:4
+msgid "Find Your Destination"
+msgstr ""
+
+#: post-types/tours/templates/search/main-filters.php:17
+msgid "Search Tour"
+msgstr ""
+
+#: post-types/tours/templates/search/main-filters.php:23
+msgid "Where To?"
+msgstr ""
+
+#: post-types/tours/templates/search/main-filters.php:48
+msgid "Price Range"
+msgstr ""
+
+#: post-types/tours/templates/search/main-filters.php:77
+#: post-types/tours/templates/search/main-filters.php:83
+msgid "Search"
+msgstr ""
+
+#: post-types/tours/templates/search/search-items-content.php:14
+msgid "We haven't found any tour that matches you're criteria"
+msgstr ""
+
+#: post-types/tours/templates/search/tour-type-filters.php:3
+msgid "Tour Type"
+msgstr ""
+
+#: post-types/tours/templates/single/booking-form.php:4
+msgid "Book this tour"
+msgstr ""
+
+#: post-types/tours/templates/single/booking-form.php:25
+msgid "Confirm Email *"
+msgstr ""
+
+#: post-types/tours/templates/single/booking-form.php:94
+#: post-types/tours/templates/single/booking-form.php:102
+msgid "Check Availability"
+msgstr ""
+
+#: post-types/tours/templates/single/booking-form.php:96
+msgid "Checking..."
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:16
+msgid "Tours Reviews"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:36
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:45
+msgid "Write Your Review"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:53
+msgid "POST A REVIEW"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:56
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:57
+msgid "cancel reply"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:58
+msgid "Send Review"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:59
+msgid "Your comment"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:63
+msgid "Your Full Name"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:63
+msgid "Your Name"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:64
+msgid "Your E-mail Address"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:64
+msgid "Your Email"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:68
+msgid "Your Experience"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:70
+msgid "Your full name"
+msgstr ""
+
+#: post-types/tours/templates/single/comments.php:71
+msgid "E-mail address"
+msgstr ""
+
+#: post-types/tours/templates/tour-info-parts/gallery.php:10
+msgid "Our gallery"
+msgstr ""
+
+#: post-types/tours/templates/tour-info-parts/title.php:18
+msgid "per person"
+msgstr ""
+
+#: post-types/tours/templates/tour-item/list.php:40
+msgid "/ per person"
+msgstr ""
+
+#: post-types/tours/templates/tour-location-parts/location.php:18
+msgid "TOUR LOCATION"
+msgstr ""
+
+#: post-types/tours/tours-register.php:77
+#: post-types/tours/tours-register.php:78
+msgid "Qode Tour"
+msgstr ""
+
+#: post-types/tours/tours-register.php:79
+msgid "Tour Items"
+msgstr ""
+
+#: post-types/tours/tours-register.php:80
+#: post-types/tours/tours-register.php:83
+msgid "Add New Tour Item"
+msgstr ""
+
+#: post-types/tours/tours-register.php:82
+msgid "New Tour Item"
+msgstr ""
+
+#: post-types/tours/tours-register.php:84
+msgid "Edit Tour Item"
+msgstr ""
+
+#: post-types/tours/tours-register.php:111
+#: post-types/tours/tours-register.php:121
+msgid "Tours Categories"
+msgstr ""
+
+#: post-types/tours/tours-register.php:113
+msgid "Search Tours Categories"
+msgstr ""
+
+#: post-types/tours/tours-register.php:114
+msgid "All Tours Categories"
+msgstr ""
+
+#: post-types/tours/tours-register.php:115
+msgid "Parent Tour Category"
+msgstr ""
+
+#: post-types/tours/tours-register.php:116
+msgid "Parent Tour Category:"
+msgstr ""
+
+#: post-types/tours/tours-register.php:117
+msgid "Edit Tour Category"
+msgstr ""
+
+#: post-types/tours/tours-register.php:118
+msgid "Update Tour Category"
+msgstr ""
+
+#: post-types/tours/tours-register.php:119
+msgid "Add New Tour Category"
+msgstr ""
+
+#: post-types/tours/tours-register.php:120
+msgid "New Tour Category Name"
+msgstr ""
+
+#: post-types/tours/tours-register.php:137
+#: post-types/tours/tours-register.php:147
+msgid "Review Criteria"
+msgstr ""
+
+#: post-types/tours/tours-register.php:138
+msgid "Review Criterion"
+msgstr ""
+
+#: post-types/tours/tours-register.php:139
+msgid "Search Review Criteria"
+msgstr ""
+
+#: post-types/tours/tours-register.php:140
+msgid "All Review Criteria"
+msgstr ""
+
+#: post-types/tours/tours-register.php:141
+msgid "Parent Review Criterion"
+msgstr ""
+
+#: post-types/tours/tours-register.php:142
+msgid "Parent Review Criterion:"
+msgstr ""
+
+#: post-types/tours/tours-register.php:143
+msgid "Edit Review Criterion"
+msgstr ""
+
+#: post-types/tours/tours-register.php:144
+msgid "Update Review Criterion"
+msgstr ""
+
+#: post-types/tours/tours-register.php:145
+msgid "Add New Review Criterion"
+msgstr ""
+
+#: post-types/tours/tours-register.php:146
+msgid "New Review Criterion Name"
+msgstr ""
+
+#: post-types/tours/tours-register.php:154
+#: post-types/tours/tours-register.php:164
+msgid "Tours Attributes"
+msgstr ""
+
+#: post-types/tours/tours-register.php:155
+msgid "Tour Attribute"
+msgstr ""
+
+#: post-types/tours/tours-register.php:156
+msgid "Search Tours Attributes"
+msgstr ""
+
+#: post-types/tours/tours-register.php:157
+msgid "All Tours Attributes"
+msgstr ""
+
+#: post-types/tours/tours-register.php:158
+msgid "Parent Tour Attribute"
+msgstr ""
+
+#: post-types/tours/tours-register.php:159
+msgid "Parent Tour Attribute:"
+msgstr ""
+
+#: post-types/tours/tours-register.php:160
+msgid "Edit Tour Attribute"
+msgstr ""
+
+#: post-types/tours/tours-register.php:161
+msgid "Update Tour Attribute"
+msgstr ""
+
+#: post-types/tours/tours-register.php:162
+msgid "Add New Tour Attribute"
+msgstr ""
+
+#: post-types/tours/tours-register.php:163
+msgid "New Tour Attribute Name"
+msgstr ""
+
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:7
+msgid "Qode Tour Categories Widget"
+msgstr ""
+
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:8
+msgid "Display list of your tour categories"
+msgstr ""
+
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:22
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:22
+msgid "Widget Title"
+msgstr ""
+
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:27
+msgid "Number of Categories"
+msgstr ""
+
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:32
+msgid "Parent Category"
+msgstr ""
+
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:33
+msgid "Leave empty for all or fill in parent category slug"
+msgstr ""
+
+#: post-types/tours/widgets/tour-category-widget/tour-categories.php:42
+msgid "ID"
+msgstr ""
+
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:7
+msgid "Qode Tour List Widget"
+msgstr ""
+
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:8
+msgid "Display list of your tours"
+msgstr ""
+
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:27
+msgid "Number of Posts"
+msgstr ""
+
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:32
+msgid "Category Slug"
+msgstr ""
+
+#: post-types/tours/widgets/tour-list-widget/tour-list.php:33
+msgid "Leave empty for all or use comma for list"
+msgstr ""

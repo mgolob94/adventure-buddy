@@ -1,0 +1,25 @@
+<wpml-config>
+	<custom-fields>
+        <custom-field action="translate">qode_tours_duration</custom-field>
+        <custom-field action="translate">qode_tours_custom_label</custom-field>
+        <custom-field action="translate">qode_tours_dress_code</custom-field>
+        <custom-field action="translate">plan_section_title</custom-field>
+        <custom-field action="translate">plan_section_description</custom-field>
+        <custom-field action="translate">qode_tours_location_excerpt</custom-field>
+        <custom-field action="translate">qode_tours_location_content</custom-field>
+        <custom-field action="translate">qode_tours_gallery_excerpt</custom-field>
+        <custom-field action="translate">qode_tours_custom_section1_title</custom-field>
+        <custom-field action="translate">qode_tours_custom_section1_content</custom-field>
+        <custom-field action="translate">qode_tours_custom_section2_title</custom-field>
+        <custom-field action="translate">qode_tours_custom_section2_content</custom-field>
+    </custom-fields>
+	<custom-types>
+		<custom-type translate="1">tour-item</custom-type>
+		<custom-type translate="1">destinations</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">tour-category</taxonomy>
+		<taxonomy translate="1">review-criteria</taxonomy>
+		<taxonomy translate="1">tour-attribute</taxonomy>
+	</taxonomies>
+</wpml-config>

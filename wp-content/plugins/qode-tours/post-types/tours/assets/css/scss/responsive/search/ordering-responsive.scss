@@ -1,0 +1,50 @@
+@include phone-landscape {
+	
+	.qode-search-ordering-holder {
+		
+		.qode-search-ordering-list {
+			padding: 0;
+			border-bottom: 1px solid #d7d7d7;
+			
+			li {
+				float: none;
+				width: 100%;
+				
+				&.qode-search-ordering-item-active {
+					
+					a {
+						margin: 0;
+						padding: 15px 20px;
+						border-color: #d7d7d7;
+					}
+				}
+				
+				a {
+					width: 100%;
+					padding: 15px 20px;
+					border-right: none;
+					border-top: 1px solid #d7d7d7;
+					
+					&:before {
+						display: none;
+					}
+					
+					.qode-search-ordering-icon,
+					.qode-search-ordering-title {
+						display: inline-block;
+						vertical-align: middle;
+					}
+					
+					.qode-search-ordering-icon {
+						position: relative;
+						top: -1px;
+					}
+					
+					.qode-search-ordering-title {
+						margin: 0 0 0 4px;
+					}
+				}
+			}
+		}
+	}
+}

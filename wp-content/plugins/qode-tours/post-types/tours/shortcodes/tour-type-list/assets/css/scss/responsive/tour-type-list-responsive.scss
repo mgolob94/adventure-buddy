@@ -1,0 +1,31 @@
+@include ipad-portrait{
+	.qode-tour-type-list-holder {
+		.qode-tours-row{
+			&.qode-tours-columns-2{
+				.qode-tours-row-item{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@include phone-portrait{
+	.qode-tour-type-list-holder{
+		.qode-tours-row{
+			.qode-tours-row-item{
+				&.qode-tours-type-item{
+					.qode-tour-type-icon,
+					.qode-tour-type-name,
+					.qode-tour-type-min-price-holder{
+						display: block;
+						width: 100%;
+						text-align: center;
+						padding: 0;
+					}
+
+				}
+			}
+		}
+	}
+}

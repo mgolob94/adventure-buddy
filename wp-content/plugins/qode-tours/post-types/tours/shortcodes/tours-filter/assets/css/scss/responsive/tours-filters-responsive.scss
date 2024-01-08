@@ -1,0 +1,32 @@
+@include ipad-portrait{
+	.qode-tours-filter-horizontal{
+		.qode-tours-filter-col{
+		    display: block;
+		    width: 100%;
+		    text-align: center;
+		    margin-bottom: 10px;
+
+		    .qbutton{
+			    width: 100%;
+			    box-sizing: border-box!important;
+			    text-align: center
+			}
+
+		}
+
+		.qode-tours-filters-fields-holder{
+		    padding: 35px;
+
+		    .qode-tours-input-with-icon{
+			    padding-right: 0;
+			}
+
+			.qode-tours-filter-submit-field-holder{
+			    width: 100%;
+			    margin-bottom: 0;
+			}
+		}
+
+
+	}
+}

@@ -1,0 +1,151 @@
+/* List type styles start
+   ========================================================================== */
+.qode-tours-list-item {
+
+	.qode-tours-list-item-table{
+		display: table;
+		width: 100%;
+	}
+
+	.qode-tours-list-item-image-holder {
+		position: relative;
+		display: table-cell;
+		width: 40%;
+		padding-right: 20px;
+		box-sizing: border-box;
+
+		.qode-tours-list-item-image-holder-inner {
+			height: 100%;
+		}
+
+		a {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+			&:hover {
+				
+				&:after {
+					opacity: 1;
+				}
+			}
+			
+			&:after {
+				@include qodeAbsoluteHolderLayout();
+				height: 100%;
+				content: '';
+				z-index: 1;
+				opacity: 0;
+				background-color: rgba(0,0,0, 0.2);
+				@include qodeTransition(opacity 1s cubic-bezier(0.29, 0.22, 0.11, 1));
+			}
+		}
+
+		img {
+			display: none;
+		}
+	}
+
+	.qode-tours-list-item-content-holder {
+		display: table-cell;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+
+	.qode-tour-title {
+		margin: 0 0 8px;
+	}
+
+	.qode-tours-list-item-excerpt {
+		margin: 16px 0 0;
+		
+		p {
+			margin: 0;
+		}
+	}
+	
+	.qode-tours-list-item-price-holder {
+		margin: 22px 0 0;
+		padding: 25px 0 0;
+		border-top: 1px solid #ebebeb;
+
+		&:before,
+		&:after {
+			content: " "; /* 1 */
+			display: table; /* 2 */
+		}
+
+		&:after {
+			clear: both;
+		}
+
+		& {
+			*zoom: 1;
+		}
+	}
+	
+	.qode-tours-list-item-price {
+		float: left;
+	}
+	
+	.qode-social-share-holder {
+		float: right;
+	}
+
+	.qode-tours-list-item-bottom-content {
+		@include qodeRelativeHolderLayout();
+		margin: 24px 0 0;
+		padding: 16px 30px;
+		color: #fff;
+		background-color: $first-main-color;
+		box-sizing: border-box;
+
+		a{
+			color: inherit;
+		}
+
+		.qode-tours-list-item-bottom-item {
+			float: left;
+			margin-right: 21px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+
+		.qode-tour-info-icon {
+			font-size: 14px;
+			margin-right: 3px;
+		}
+	}
+
+	.qode-tours-tour-categories-item {
+		display: inline-block;
+		margin-right: 21px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		.qode-tour-cat-item-icon {
+			font-size: 14px;
+			margin-right: 3px;
+		}
+
+		.qode-tour-cat-item-custom-image {
+			vertical-align: baseline;
+
+			img {
+				vertical-align: middle;
+				width: 14px;
+			}
+		}
+	}
+}
+
+/* List type styles end
+   ========================================================================== */
